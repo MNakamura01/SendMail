@@ -1,9 +1,11 @@
 <?php
 
-	require "../../app_send_mail/bibliotecas/PHPMailer/Exception.php";
-	require "../../app_send_mail/bibliotecas/PHPMailer/OAuth.php";
-	require "../../app_send_mail/bibliotecas/PHPMailer/PHPMailer.php";
-	require "../../app_send_mail/bibliotecas/PHPMailer/POP3.php";
-	require "../../app_send_mail/bibliotecas/PHPMailer/SMTP.php";
+	require "./_dir_privado/bibliotecas/PHPMailer/Exception.php";
+	require "./_dir_privado/bibliotecas/PHPMailer/OAuth.php";
+	require "./_dir_privado/bibliotecas/PHPMailer/PHPMailer.php";
+	require "./_dir_privado/bibliotecas/PHPMailer/POP3.php";
+	require "./_dir_privado/bibliotecas/PHPMailer/SMTP.php";
 
-	require "../../app_send_mail/processa_envio.php";
+	require "./_dir_privado/processa_envio.php";
+
+?>
